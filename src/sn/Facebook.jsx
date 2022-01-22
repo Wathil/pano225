@@ -1,5 +1,4 @@
 import React from "react";
-import Facebooksvg from "./svgs/Facebooksvg";
 import Facebookpng from "./pngs/Facebookpng";
 
 const Facebook = (props) => ( // 

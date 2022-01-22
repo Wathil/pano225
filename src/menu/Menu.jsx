@@ -1,6 +1,6 @@
 // import "./menu.css";
 import "../style.css";
-import React, { useState, useEffect, useContext } from "react";
+import React, { useState, useEffect } from "react";
 import { getURLStart } from "../getUrl";
 import { ParamsContext } from "../ParamsContext";
 
@@ -11,8 +11,6 @@ const display = (nom) => {
 
 export function Menu() {
   const { params, setParams } = React.useContext(ParamsContext);
-
-  const URL_START = getURLStart();
 
   const [active, setActive] = useState(0); // index active 0, 1, 2, 3
 

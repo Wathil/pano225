@@ -1,6 +1,5 @@
 import React from "react";
 import { formatTel } from "./formatTel";
-import Phonesvg from "./svgs/Phonesvg";
 import Phonepng from "./pngs/Phonepng";
 
 const Phone = (props) => ( // 2250102030405

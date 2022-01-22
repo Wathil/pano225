@@ -2,9 +2,9 @@ import React from "react";
 import "./style.css";
 import Facebook from "./sn/Facebook";
 import Whatsapp from "./sn/Whatsapp";
-import Instagram from "./sn/Instagram.jsx";
+import Instagram from "./sn/Instagram";
 import Twitter from "./sn/Twitter";
-import Phone from "./sn/Phone.jsx";
+import Phone from "./sn/Phone";
 
 export function Card(props) {
   return (

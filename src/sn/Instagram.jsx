@@ -1,5 +1,4 @@
 import React from "react";
-import Instagramsvg from "./svgs/Instagramsvg";
 import Instagrampng from "./pngs/Instagrampng";
 
 const Instagram = (props) => ( // 

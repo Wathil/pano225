@@ -2,9 +2,9 @@ import React from "react";
 import "./style.css";
 import Facebook from "./sn/Facebook";
 import Whatsapp from "./sn/Whatsapp";
-import Instagram from "./sn/Instagram.jsx";
+import Instagram from "./sn/Instagram";
 import Twitter from "./sn/Twitter";
-import Phone from "./sn/Phone.jsx";
+import Phone from "./sn/Phone";
 
 export function Article(props) {
   return (
@@ -12,9 +12,7 @@ export function Article(props) {
       <div className="cardContainer">
         <div className="card">
           <h2 className="top-info">
-            <a className="pano225-link article-link" href="#" onClick={props.click}>
-              {props.article.artiste}
-            </a>
+            <button className="button-artiste-info" onClick={(e) => props.setArtisteFromCard(props.article.artiste)}>{props.article.artiste}</button>
           </h2>
           <div className="pad_image">
             <p>{props.article.lieu}</p>
@@ -39,14 +37,10 @@ export function Article(props) {
           ></div>
           <div className="bottom-info">
             <div className="bottom-info-hover-left">
-              <a className="pano225-link zone-link" href="#" onClick={props.click}>
-                {props.article.zone}
-              </a>
+              <button className="button-zone-info" onClick={(e) => props.setZoneFromCard(props.article.zone)}>{props.article.zone}</button>
             </div>
             <div className="bottom-info-hover-right">
-              <a className="pano225-link musique-link" href="#" onClick={props.click}>
-                {props.article.musique}
-              </a>
+              <button className="button-musique-info" onClick={(e) => props.setMusiqueFromCard(props.article.musique)}>{props.article.musique}</button>
             </div>
           </div>
         </div>

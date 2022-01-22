@@ -1,5 +1,4 @@
 import React from "react";
-import Twittersvg from "./svgs/Twittersvg";
 import Twitterpng from "./pngs/Twitterpng";
 
 const Twitter = (props) => ( // 

@@ -125,11 +125,15 @@ function App() {
       {listSections.map((section, indexSection) => {
         // article.i croissant quand il change, nouvelle section
         let lastSection = indexSection + 1 === listSections.length;
+        const keySection = "section" + indexSection;
+        // const keySection = indexSection;
         return (
-          <section className="cards" key={indexSection}>
+          <section className="cards" key={keySection}>
             {section.map((article, indexArticle) => {
               let lastArticle = indexArticle + 1 === section.length;
               let nouvelleSection = false;
+              const keyArticle = keySection + "Article" + indexArticle;
+              // const keyArticle = indexArticle;
               if (first) {
                 first = false;
                 currentI = article.i;
@@ -145,7 +149,7 @@ function App() {
                   return (
                     <>
                       <Periode date={getDate(article)} />
-                      <Article reference={lastItemRef} key={indexArticle}>
+                      <Article reference={lastItemRef} key={keyArticle}>
                         <Card
                           article={article}
                           setArtisteFromCard={setArtisteFromCard}
@@ -157,7 +161,7 @@ function App() {
                   );
                 } else {
                   return (
-                    <Article reference={lastItemRef} key={indexArticle}>
+                    <Article reference={lastItemRef} key={keyArticle}>
                       <Card
                         article={article}
                         setArtisteFromCard={setArtisteFromCard}
@@ -172,7 +176,7 @@ function App() {
                   return (
                     <>
                       <Periode date={getDate(article)} />
-                      <Article key={indexArticle}>
+                      <Article key={keyArticle}>
                         <Card
                           article={article}
                           setArtisteFromCard={setArtisteFromCard}
@@ -184,7 +188,7 @@ function App() {
                   );
                 } else {
                   return (
-                    <Article key={indexArticle}>
+                    <Article key={keyArticle}>
                       <Card
                         article={article}
                         setArtisteFromCard={setArtisteFromCard}

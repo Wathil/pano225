@@ -1,6 +1,5 @@
 import React from "react";
 import { formatTel } from "./formatTel";
-import Whatsappsvg from "./svgs/Whatsappsvg";
 import Whatsapppng from "./pngs/Whatsapppng";
 
 const Whatsapp = (props) => ( // 2250102030405

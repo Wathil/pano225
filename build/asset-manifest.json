@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/demoreact/static/css/main.783be13f.css",
-    "main.js": "/demoreact/static/js/main.cd17a321.js",
-    "static/js/787.6c09d8aa.chunk.js": "/demoreact/static/js/787.6c09d8aa.chunk.js",
-    "index.html": "/demoreact/index.html",
-    "main.783be13f.css.map": "/demoreact/static/css/main.783be13f.css.map",
-    "main.cd17a321.js.map": "/demoreact/static/js/main.cd17a321.js.map",
-    "787.6c09d8aa.chunk.js.map": "/demoreact/static/js/787.6c09d8aa.chunk.js.map"
+    "main.css": "/pano225/static/css/main.783be13f.css",
+    "main.js": "/pano225/static/js/main.ac470551.js",
+    "static/js/787.6c09d8aa.chunk.js": "/pano225/static/js/787.6c09d8aa.chunk.js",
+    "index.html": "/pano225/index.html",
+    "main.783be13f.css.map": "/pano225/static/css/main.783be13f.css.map",
+    "main.ac470551.js.map": "/pano225/static/js/main.ac470551.js.map",
+    "787.6c09d8aa.chunk.js.map": "/pano225/static/js/787.6c09d8aa.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.783be13f.css",
-    "static/js/main.cd17a321.js"
+    "static/js/main.ac470551.js"
   ]
 }
